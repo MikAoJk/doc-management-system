@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link';
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light
+        <nav className="navbar navbar-expand navbar-expand-sm navbar-light
                         bg-light shadow top-0">
             <div className="container">
                 <a className="navbar-brand" href="#">
