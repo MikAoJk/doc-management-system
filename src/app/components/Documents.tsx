@@ -104,7 +104,7 @@ const Documents = () => {
                                 <h5 className="modal-title">
                                     {selectedDocument?.name}
                                 </h5>
-                                <button type="button" className="close"
+                                <button type="button" className="btn close"
                                         onClick={() => setShowModal(false)}>
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -115,6 +115,8 @@ const Documents = () => {
                                     <Image className="img-fluid"
                                         src={selectedDocument.image}
                                         alt="Document"
+                                        width={800}
+                                        height={800}
                                     />
                                 }
                             </div>
